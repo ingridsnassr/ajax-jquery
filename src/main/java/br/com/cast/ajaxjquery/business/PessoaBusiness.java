@@ -54,7 +54,7 @@ public class PessoaBusiness {
 				pessoa.setEndereco(endereco);
 				
 				pessoaDAO.inserir(pessoa);
-				
+
 				System.out.println(endereco);
 	}			
 
